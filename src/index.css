@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components; 
+@tailwind utilities; 
+
+body{ 
+  background-color: black; 
+} 
+#title{ 
+  animation: text-slide-in 1s ease-in; 
+} 
+#category-container{ 
+  animation: block-slide-in 2s ease-in; 
+} 
+#select-cate{
+  animation: spin 2s linear;
+}
+button:hover{
+  animation: hoverAnimation 0.5s linear ;
+}
+@keyframes text-slide-in { 
+  0% { opacity: 0; transform: translateX(-100%); } 
+  100% { opacity: 1; transform: translateX(0); } 
+} 
+@keyframes block-slide-in { 
+  0% { opacity: 0; 
+    transform: translateY(-100%); 
+  } 
+  100% { opacity: 1; 
+    transform: translateY(0); 
+  } 
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); 
+       opacity: 0;}
+  100% { transform: rotate(360deg); 
+         opacity: 1;}
+}
+@keyframes hoverAnimation{
+  0%{ transform : translateX(0);}
+  50%{ transform : translateX(5%);}
+  100%{transform : translateX(0);}
+}
