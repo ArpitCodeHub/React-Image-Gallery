@@ -40,3 +40,38 @@ button:hover{
   50%{ transform : translateX(5%);}
   100%{transform : translateX(0);}
 }
+
+@media (max-width:480px){
+  #title-box{
+    width: 250px;
+  }
+  #title{
+    font-size:xx-large;
+  }
+  #select-cate{
+    width:150px;
+    font-size: x-large;
+  }
+  #category-container{
+    align-items: center;
+    align-content: space-around;
+    gap : 10px;
+  }
+}
+@media (min-width:481px) and (max-width:1024px) {
+  #category-container{
+    align-items: center;
+    align-content: space-around;
+    gap:15px;
+  }
+  #select-cate{
+    width:250px;
+    font-size: 100px;
+  }
+  #title-box{
+    width: 350px;
+  }
+  #title{
+    font-size:xx-large;
+  }
+}

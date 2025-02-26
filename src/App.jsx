@@ -18,8 +18,8 @@ const App = () => {
     }; 
   return ( 
     <> 
-      <div id="title-box" className="bg-gray-700 px-5 py-5 mx-auto mt-36 mb-16 w-1/3 text-center rounded-2xl shadow-lg shadow-pink-500"> 
-        <h1 id="title" className="text-pink-500 font-mono text-6xl font-bold">Image Gallery</h1> 
+      <div id="title-box" className="bg-gray-700 px-5 py-5 mx-auto mt-36 mb-16 w-2/5 text-center rounded-2xl shadow-lg shadow-pink-500"> 
+        <h1 id="title" className="text-pink-500 font-mono text-6xl font-bold">Image Generator</h1> 
       </div> 
       <div id="select-cate" className='bg-gray-700 px-5 py-3 rounded-lg mx-auto my-10 w-64 text-center shadow-lg shadow-cyan-400'>
         <h1 className='text-2xl text-cyan-400 font-mono'> Select Category </h1>
